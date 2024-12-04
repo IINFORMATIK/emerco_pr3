@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const House = require('../models/House');
+const House = require('../models/house');
 
 // Добавить дом
 router.post('/add', async (req, res) => {
